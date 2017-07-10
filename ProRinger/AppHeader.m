@@ -50,6 +50,7 @@
 
 -(void)Appheader_sideMenu_Footer_Load:(UIViewController *)viewController HeaderLeftBtn:(NSString *)menu_back HeaderRightBtn:(NSString *)search_home HeaderText:(NSString *)headertext Footer:(BOOL)yes_no
 {
+    
     ///Header Setup
     self.layer.masksToBounds = NO;
     self.layer.shadowOffset = CGSizeMake(1, 1);
