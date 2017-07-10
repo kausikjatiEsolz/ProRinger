@@ -12,6 +12,7 @@
 {
     __weak IBOutlet UITableView *chatTable;
     
+    __weak IBOutlet UIImageView *backgorund_image;
 }
 
 

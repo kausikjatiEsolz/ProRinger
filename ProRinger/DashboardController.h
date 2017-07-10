@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DashboardController : UIViewController
+@interface DashboardController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 {
     IBOutlet UIView *header_view;
     

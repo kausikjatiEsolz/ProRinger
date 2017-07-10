@@ -69,10 +69,11 @@
     NSLog(@"array--->%@",array);
     
     
-    chatTable.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:.5f];
+    chatTable.backgroundColor = [UIColor clearColor];
     
-    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"chat_background(1)"]];
+    //self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"chat_background(1)"]];
     
+    backgorund_image.image = [UIImage imageNamed:@"chat_background(1)"];
     
 }
 
